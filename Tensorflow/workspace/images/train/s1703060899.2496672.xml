@@ -1,0 +1,26 @@
+<annotation>
+	<folder>pena</folder>
+	<filename>s1703060899.2496672.jpg</filename>
+	<path>C:\TanserflowObjectDetection\TFODCourse\Tensorflow\workspace\images\collectedimages\pena\s1703060899.2496672.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1408</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>shapka</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>609</xmin>
+			<ymin>324</ymin>
+			<xmax>1035</xmax>
+			<ymax>769</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>pena</folder>
+	<filename>5proc2023_08_31_02_52_43_642076_74385_NG5proc.jpg</filename>
+	<path>C:\TanserflowObjectDetection\TFODCourse\Tensorflow\workspace\images\collectedimages\pena\5proc2023_08_31_02_52_43_642076_74385_NG5proc.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1408</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pena</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>725</xmin>
+			<ymin>383</ymin>
+			<xmax>1058</xmax>
+			<ymax>694</ymax>
+		</bndbox>
+	</object>
+</annotation>

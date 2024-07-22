@@ -1,0 +1,11 @@
+# version: '3'
+services:
+  myapp:
+    build: .
+    image: myapp_image
+    restart: always
+    container_name: myapp_container
+    volumes:
+      - ./:/data
+    # command: python script_main.py -s=1000 -ve=False -e=False
+    command: tail -f /dev/null

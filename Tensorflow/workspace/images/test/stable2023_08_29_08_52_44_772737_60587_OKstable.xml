@@ -1,0 +1,26 @@
+<annotation>
+	<folder>pena</folder>
+	<filename>stable2023_08_29_08_52_44_772737_60587_OKstable.jpg</filename>
+	<path>C:\TanserflowObjectDetection\TFODCourse\Tensorflow\workspace\images\collectedimages\pena\stable2023_08_29_08_52_44_772737_60587_OKstable.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1408</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pena</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>676</xmin>
+			<ymin>484</ymin>
+			<xmax>798</xmax>
+			<ymax>615</ymax>
+		</bndbox>
+	</object>
+</annotation>

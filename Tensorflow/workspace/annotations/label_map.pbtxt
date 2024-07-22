@@ -1,0 +1,12 @@
+item { 
+	name:'pena'
+	id:1
+}
+item { 
+	name:'fontan'
+	id:2
+}
+item { 
+	name:'shapka'
+	id:3
+}
