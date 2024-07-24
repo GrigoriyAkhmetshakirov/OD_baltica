@@ -9,7 +9,7 @@
 3. Открыть терминал и перейти в директорию `labelImg`;
 4. Командой `pip3 install labelImg` установить необходимые пакеты;
 5. Командой `labelImg` запустить программу для разметки;
-6. Выполнить разметку используя лейблы 'pena', 'fontan' и 'shapka' аналогично тому как это сделано на видео https://www.youtube.com/watch?v=Tlvy-eM8YO4&t=370s.
+6. Выполнить разметку используя лейблы 'pena', 'fontan' и 'shapka' аналогично тому как это сделано на видео `https://www.youtube.com/watch?v=Tlvy-eM8YO4&t=370s`.
 7. Очистить папки `Tensorflow/workspace/images/train` и `Tensorflow/workspace/images/test`.
 7. Перенести 9/10 часть изображений и соответствуюшие им файлы разметки в формате .xml в папку `Tensorflow/workspace/images/train`, остальную часть изображений и разметки поместить в папку `Tensorflow/workspace/images/test`.
 
@@ -20,7 +20,7 @@
 4. Перейти в директорию, где хранится скрипт и открыть терминал;
 5. Командой `docker-compose build` сконфигурировать контейнер;
 6. Открыть новое окно терминала, перейти в директорию, где хранится скрипт и командой `docker exec -it myapp_container bash` зайти в контейнер;
-7. Командой `python script_main.py -s=1000 -ve=False -e=False` запустить обучение модели;
+7. Командой `python script_main.py -s=2000 -ve=False -e=False` запустить обучение модели;
 8. Командой `exit` выйти из контейнера;
 9. Копировать файлы обученной модели командой `docker cp myapp_container:./root/models.tar.gz ./`;
 10. В папке со скриптом появится архив с обученной моделью.
