@@ -7,14 +7,16 @@ COPY . /root
 
 WORKDIR /root
 
-# RUN apt-get update && apt-get -y install git vim curl lsb-release unzip gnupg gcc python3-dev
+RUN pip install --upgrade pip
+
+RUN apt-get update && apt-get -y install git vim curl lsb-release unzip gnupg gcc python3-dev
 
 RUN apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
 
-# RUN pip install tensorflow==${TENSORFLOW_VERSION} pandas==2.0.3 image
+RUN pip install tensorflow==${TENSORFLOW_VERSION} pandas==2.0.3 image kaggle==1.6.14
 
 # Install gcloud and gsutil commands
-# RUN echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list && curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key --keyring /usr/share/keyrings/cloud.google.gpg  add - && apt-get update -y && apt-get install google-cloud-sdk -y
+RUN echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list && curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key --keyring /usr/share/keyrings/cloud.google.gpg  add - && apt-get update -y && apt-get install google-cloud-sdk -y
 
 # Install protoc
 RUN curl -OL "https://github.com/google/protobuf/releases/download/v${PROTOC_VERSION}/protoc-${PROTOC_VERSION}-linux-x86_64.zip" && \
